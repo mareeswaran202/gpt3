@@ -58,7 +58,7 @@
 .gpte_highletedtxt {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   margin: 4rem 0 2rem;
 }
 .gpte_highletedtxt > h1 {

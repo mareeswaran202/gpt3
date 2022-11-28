@@ -117,6 +117,11 @@
   .section_margin {
     margin: 4rem 2rem;
   }
+  .gpt3_footer_contentsec > h1 {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 700px) {

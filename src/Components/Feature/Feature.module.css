@@ -95,3 +95,10 @@
     font-size: 13px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .gpt3__features_container__feature {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}

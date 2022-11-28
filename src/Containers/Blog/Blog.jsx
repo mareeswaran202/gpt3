@@ -8,7 +8,10 @@ import blog4 from "../../assets/blog4.png";
 import blog5 from "../../assets/blog5.png";
 const blog = () => {
   return (
-    <div className={`${styles.gpt3_blogcontainer} ${styles.section_padding}`}>
+    <div
+      className={`${styles.gpt3_blogcontainer} ${styles.section_padding}`}
+      id="casestudy"
+    >
       <div className={styles.gpt3_blogcontainerheading}>
         <h1>A lot is happening, We are blogging about it.</h1>
       </div>
