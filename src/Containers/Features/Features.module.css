@@ -1,0 +1,70 @@
+.section_padding {
+  padding: 4rem 6rem;
+}
+.section_margin {
+  margin: 4rem 6rem;
+}
+
+.gpt3__features_container {
+  display: flex;
+  width: 100%;
+}
+.gpt3__features_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+}
+.gpt3__features_higlights {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.gpt3__features_heading > h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  flex: 0.6;
+  max-width: 500px;
+}
+
+.gpt3__features_heading > p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+}
+
+@media screen and (max-width: 700px) {
+  .section_padding {
+    padding: 4rem;
+  }
+  .section_margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section_padding {
+    padding: 4rem 2rem;
+  }
+  .section_margin {
+    margin: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .gpt3__features_container {
+    flex-direction: column;
+  }
+}

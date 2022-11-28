@@ -1,0 +1,41 @@
+.brand_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+.brand_container > div {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  min-width: 120px;
+}
+.section_padding {
+  padding: 4rem 6rem;
+}
+@media screen and (max-width: 700px) {
+  .section_padding {
+    padding: 4rem;
+  }
+  .section_margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section_padding {
+    padding: 4rem 2rem;
+  }
+  .section_margin {
+    margin: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .brand_container {
+    flex-direction: column;
+  }
+}
